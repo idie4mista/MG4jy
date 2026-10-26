@@ -24,7 +24,7 @@ public class FloatAnimation : MonoBehaviour
             transform.Translate(0, -_moveSpeed * Time.deltaTime, 0);
         }
 
-        _timer -= Time.deltaTime;
+        _timer -= Time.deltaTime;      
         if (_timer <= 0.0f)
         {
             _timer = _switchSpeed;
